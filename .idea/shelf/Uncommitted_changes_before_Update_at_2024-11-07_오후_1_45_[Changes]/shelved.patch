@@ -1,0 +1,18 @@
+Index: app/src/main/java/com/lion/gittest2/MainActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.lion.gittest2\r\n\r\nimport android.os.Bundle\r\nimport androidx.activity.enableEdgeToEdge\r\nimport androidx.appcompat.app.AppCompatActivity\r\nimport androidx.core.view.ViewCompat\r\nimport androidx.core.view.WindowInsetsCompat\r\n\r\nclass MainActivity : AppCompatActivity() {\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n        super.onCreate(savedInstanceState)\r\n        enableEdgeToEdge()\r\n        setContentView(R.layout.activity_main)\r\n        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->\r\n            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())\r\n            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)\r\n            insets\r\n        }\r\n\r\n        // 안녕하십니까\r\n        // 잘부탁드립니다\r\n        // 하하하하\r\n        // ㅎㅎㅎㅎ\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/lion/gittest2/MainActivity.kt b/app/src/main/java/com/lion/gittest2/MainActivity.kt
+--- a/app/src/main/java/com/lion/gittest2/MainActivity.kt	
++++ b/app/src/main/java/com/lion/gittest2/MainActivity.kt	
+@@ -20,6 +20,5 @@
+         // 안녕하십니까
+         // 잘부탁드립니다
+         // 하하하하
+-        // ㅎㅎㅎㅎ
+     }
+ }
+\ No newline at end of file
