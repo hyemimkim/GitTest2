@@ -20,6 +20,6 @@ class MainActivity : AppCompatActivity() {
         // 안녕하십니까
         // 잘부탁드립니다
         // 하하하하
-        // ㅎㅎㅎㅎ
+        // 호호
     }
 }
