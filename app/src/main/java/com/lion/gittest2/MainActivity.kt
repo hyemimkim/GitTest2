@@ -18,5 +18,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         // 안녕하십니까
+        // 잘부탁드립니다
     }
 }
